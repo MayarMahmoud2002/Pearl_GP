@@ -42,8 +42,10 @@ class SplashView2 extends StatelessWidget {
                       width: 168,
                       child: Center(child: Text('English',style: TextStyle(
                         fontSize: 16.0,
+                        fontWeight: FontWeight.bold,
 
-                        color: Color.fromRGBO(30, 30, 84, 1.0),
+
+                        color: Colors.black87,
                       ),)
 
                       ),
@@ -62,8 +64,10 @@ class SplashView2 extends StatelessWidget {
                     width: 168,
                     child: Center(child: Text('العربية',style: TextStyle(
                       fontSize: 16.0,
+                      fontWeight: FontWeight.bold,
 
-                      color: Color.fromRGBO(30, 30, 84, 1.0),
+
+                      color: Colors.black87,
                     ),)
 
 

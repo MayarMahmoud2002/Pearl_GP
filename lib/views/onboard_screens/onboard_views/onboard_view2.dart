@@ -21,12 +21,15 @@ class OnboardView2 extends StatelessWidget {
           SizedBox(
             height: 2,
           ),
-          Center(
-            child: Text(
-              'Analise your skin\nand know its type',
-              style: TextStyle(
-                fontSize: 32,
-                fontWeight: FontWeight.bold,
+          Padding(
+            padding: const EdgeInsets.only(left: 40.0),
+            child: Center(
+              child: Text(
+                'Get your morning skin routine',
+                style: TextStyle(
+                  fontSize: 32,
+                  fontWeight: FontWeight.bold,
+                ),
               ),
             ),
           ),

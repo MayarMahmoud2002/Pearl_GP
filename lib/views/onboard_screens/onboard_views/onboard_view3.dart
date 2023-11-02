@@ -19,7 +19,7 @@ class OnboardView3 extends StatelessWidget {
             padding: const EdgeInsets.only(top: 45.0),
             child: Column(
               children: [
-                Image.asset('assets/images/Moon.png'),
+                // Image.asset('assets/images/Moon.jpg'),
                 SizedBox(
                   height: 5.0,
                 ),

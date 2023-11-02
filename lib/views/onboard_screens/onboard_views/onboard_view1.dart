@@ -7,7 +7,7 @@ class OnboardView1 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color.fromRGBO(211, 241, 255, 1.0),
+      backgroundColor: Color.fromRGBO(231, 240, 255, 1.0),
       body: Column(
         children: [
           Padding(
