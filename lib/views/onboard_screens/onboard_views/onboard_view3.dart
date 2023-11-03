@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:graduation_project/views/splash_screen/splash_views/splash_view2.dart';
+import '../../signin_screens/signin_views/signin_view.dart';
 
 class OnboardView3 extends StatelessWidget {
 
@@ -67,7 +67,7 @@ class OnboardView3 extends StatelessWidget {
                         onTap: ()
                         {
                           Navigator.push(context,
-                              MaterialPageRoute(builder:(context)=> SplashView2()));
+                              MaterialPageRoute(builder:(context)=> SignInView()));
                         },
                         child: Container(
                           child: Padding(
