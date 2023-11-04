@@ -1,5 +1,6 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
+import 'package:graduation_project/views/onboard_screens/onboard_views/onboard_view1.dart';
 
 void main() {
   runApp(MyApp());
@@ -30,7 +31,7 @@ class _AnimatedContainerExampleState extends State<AnimatedContainerExample> wit
 
     // Create an AnimationController and Animation
     _controller = AnimationController(
-      duration: Duration(seconds: 2), // Adjust the duration as needed
+      duration: Duration(seconds: 5), // Adjust the duration as needed
       vsync: this,
     );
 
@@ -46,7 +47,6 @@ class _AnimatedContainerExampleState extends State<AnimatedContainerExample> wit
       });
     });
   }
-
   @override
   Widget build(BuildContext context) {
     return SafeArea(
@@ -69,23 +69,30 @@ class _AnimatedContainerExampleState extends State<AnimatedContainerExample> wit
                       Container(
                         alignment: Alignment.bottomCenter,
                         margin: EdgeInsets.only(bottom: 18 * _animation.value),
-                        child: Container(
-                          child: Center(
-                            child: Text(
-                              'English',
-                              style: TextStyle(
-                                fontSize: 16,
-                                fontWeight: FontWeight.bold,
-                                color: Color.fromRGBO(0, 0, 0, 1.0),
+                        child: InkWell(
+                          onTap: ()
+                          {
+                            // Navigator.push(context, MaterialPageRoute(builder: (context) => OnboardView1()));
+
+                          },
+                          child: Container(
+                            child: Center(
+                              child: Text(
+                                'English',
+                                style: TextStyle(
+                                  fontSize: 16,
+                                  fontWeight: FontWeight.bold,
+                                  color: Color.fromRGBO(0, 0, 0, 1.0),
+                                ),
                               ),
                             ),
+                            decoration: BoxDecoration(
+                              color: Color.fromRGBO(252, 252, 252, 1.0),
+                              borderRadius: BorderRadius.circular(100),
+                            ),
+                            width: 168,
+                            height: 50,
                           ),
-                          decoration: BoxDecoration(
-                            color: Color.fromRGBO(252, 252, 252, 1.0),
-                            borderRadius: BorderRadius.circular(100),
-                          ),
-                          width: 168,
-                          height: 50,
                         ),
                       ),
                     if (!isHidden)
