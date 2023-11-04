@@ -1,9 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:graduation_project/views/onboard_screens/onboard_views/onboard_view1.dart';
-import 'package:graduation_project/views/onboard_screens/onboard_views/onboard_view2.dart';
-import 'package:graduation_project/views/onboard_screens/onboard_views/onboard_view3.dart';
-import 'package:graduation_project/views/splash_screen/splash_views/splash_view1.dart';
-import 'package:graduation_project/views/splash_screen/splash_views/splash_view2.dart';
+import 'package:graduation_project/views/splash_screen/splash_views/splash_view.dart';
 
 void main() {
   runApp( MyApp());
@@ -17,7 +13,7 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       theme: ThemeData(
       ),
-      home:  OnboardView3(),
+      home: AnimatedContainerExample(),
     );
   }
 

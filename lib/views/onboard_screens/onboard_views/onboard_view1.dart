@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:graduation_project/views/onboard_screens/onboard_views/onboard_view2.dart';
-import 'package:graduation_project/views/splash_screen/splash_views/splash_view2.dart';
 
 class OnboardView1 extends StatelessWidget {
 

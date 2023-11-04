@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:graduation_project/views/splash_screen/splash_views/splash_view2.dart';
 
 import 'onboard_view3.dart';
 
